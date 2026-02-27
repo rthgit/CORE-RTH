@@ -58,6 +58,11 @@ An AI without memory is amnesic. Core Rth learns you.
   <i>Watch the Sovereign Kernel connect the dots in real-time.</i>
 </div>
 
+### 🌐 The Browser Swarm & Workflow Automation
+Core Rth isn't limited to its internal logic; it extends its reach into the web and enterprise workflows.
+*   **Browser Swarm:** Deploy a swarm of headless browsers (via Playwright) navigated by LLMs. Scrape data, test UI, or automate web research autonomously, all under the Guardian's strict SSRF prevention rules.
+*   **n8n & Workflow Integrations:** Seamlessly hook into n8n or Make.com to orchestrate infinitely complex enterprise workflows. Let Core Rth be the cognitive brain that triggers your entire existing no-code infrastructure.
+
 ### � Chat-to-Matter: Omni-Channel Autonomy
 You don't need a complex dashboard to move a robotic arm or reroute a drone. Control your physical and digital fleet while drinking coffee.
 *   **Messaging Integrations:** Connect Core Rth to a dedicated **WhatsApp Business, Telegram Bot, or secure Email channel**. 
