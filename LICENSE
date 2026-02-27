@@ -1,0 +1,101 @@
+# Core Rth License
+
+## Copyright (c) 2026 Christian Quintino De Luca — RTH Italia — All Rights Reserved
+
+---
+
+## CORE RTH SOURCE-AVAILABLE LICENSE v1.0
+
+### 1. Definitions
+
+- **"Software"** means Core Rth and all associated source code, documentation,
+  configuration files, scripts, and assets included in the release bundle.
+- **"Author"** means the original creator and copyright holder of the Software.
+- **"Non-Commercial Use"** means personal use, academic research, education,
+  experimentation, and non-profit projects that do not generate revenue.
+- **"Commercial Use"** means any use of the Software intended to generate revenue,
+  including but not limited to: SaaS, PaaS, consulting services, resale,
+  integration into commercial products, or use within a for-profit organization.
+
+### 2. Non-Commercial Use — FREE
+
+You are hereby granted a free, worldwide, non-exclusive, non-transferable license to:
+
+- ✅ Use the Software for personal projects
+- ✅ Study, modify, and learn from the source code
+- ✅ Use in academic research and education
+- ✅ Use in non-profit organizations
+- ✅ Share and distribute copies with this license attached
+- ✅ Create derivative works for non-commercial purposes
+
+**Conditions:**
+- You must retain this license file and all copyright notices
+- You must credit "Core Rth by RTH Italia" in any derivative work
+- You may not remove or alter the Safety Warning (SAFETY_WARNING.md)
+
+### 3. Commercial Use — PAID LICENSE REQUIRED
+
+**Any commercial use requires a separate paid license from the Author.**
+
+This includes but is not limited to:
+
+- ❌ Offering the Software as a service (SaaS/PaaS/IaaS)
+- ❌ Integrating the Software into commercial products
+- ❌ Using the Software within a for-profit company for internal operations
+- ❌ Reselling, sublicensing, or distributing the Software for profit
+- ❌ Using the Software to provide paid consulting or services
+- ❌ Deploying the Software in a revenue-generating production environment
+
+**To obtain a commercial license, contact:**
+
+📧 **info@rthitalia.com**
+
+🌐 **RTH Italia di Christian Quintino De Luca**
+
+Commercial licenses are available on flexible terms including:
+- Per-seat licensing
+- Revenue-share agreements
+- Enterprise site licenses
+- OEM/embedded licenses
+
+### 4. Restrictions (all uses)
+
+Regardless of license type, you may NOT:
+
+- Remove or circumvent the Guardian governance system
+- Remove or alter safety warnings and interlocks
+- Use the Software for illegal activities
+- Claim authorship of the original Software
+- Use the Author's name or trademarks for endorsement without permission
+
+### 5. Contributions
+
+If you contribute improvements to the Software (via pull request or otherwise),
+you grant the Author a perpetual, irrevocable, worldwide license to use,
+modify, and distribute your contributions under the terms of this license.
+
+### 6. Disclaimer of Warranty
+
+THE SOFTWARE IS PROVIDED "AS-IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE, AND NONINFRINGEMENT. IN NO EVENT SHALL
+THE AUTHOR BE LIABLE FOR ANY CLAIM, DAMAGES, OR OTHER LIABILITY ARISING
+FROM THE USE OF THE SOFTWARE.
+
+### 7. Limitation of Liability
+
+IN NO EVENT SHALL THE AUTHOR BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL,
+SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING BUT NOT LIMITED TO
+PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS;
+OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY.
+
+### 8. Governing Law
+
+This license shall be governed by and construed in accordance with the laws
+of Italy and the European Union.
+
+---
+
+**Core Rth** — © 2026 Christian Quintino De Luca — RTH Italia. All Rights Reserved.
+
+*License version: 1.0 — 2026-02-27*
