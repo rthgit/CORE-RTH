@@ -12,10 +12,10 @@
   configuration files, scripts, and assets included in the release bundle.
 - **"Author"** means the original creator and copyright holder of the Software.
 - **"Non-Commercial Use"** means personal use, academic research, education,
-  experimentation, and non-profit projects that do not generate revenue.
+  experimentation, and non-profit projects that do not generate revenue. Non-Commercial Use excludes any activity that is fee-based, revenue-funded, or performed under contract, even for non-profits.
 - **"Commercial Use"** means any use of the Software intended to generate revenue,
   including but not limited to: SaaS, PaaS, consulting services, resale,
-  integration into commercial products, or use within a for-profit organization.
+  integration into commercial products, or use within a for-profit organization. Commercial Use includes internal use within a for-profit organization, even if not sold or redistributed, and using the Software to support paid work (even if the Software is not delivered to the client).
 
 ### 2. Non-Commercial Use — FREE
 
@@ -32,6 +32,8 @@ You are hereby granted a free, worldwide, non-exclusive, non-transferable licens
 - You must retain this license file and all copyright notices
 - You must credit "Core Rth by RTH Italia" in any derivative work
 - You may not remove or alter the Safety Warning (SAFETY_WARNING.md)
+- Distribution must be free of charge (no license fees, access fees, or mandatory donations)
+- Derivative works must be distributed under this same license for Non-Commercial Use
 
 ### 3. Commercial Use — PAID LICENSE REQUIRED
 
@@ -58,6 +60,8 @@ Commercial licenses are available on flexible terms including:
 - Enterprise site licenses
 - OEM/embedded licenses
 
+Commercial evaluation trials are available upon request.
+
 ### 4. Restrictions (all uses)
 
 Regardless of license type, you may NOT:
@@ -67,6 +71,8 @@ Regardless of license type, you may NOT:
 - Use the Software for illegal activities
 - Claim authorship of the original Software
 - Use the Author's name or trademarks for endorsement without permission
+
+Attempting to bypass governance/safety mechanisms voids the license grant.
 
 ### 5. Contributions
 

@@ -178,6 +178,17 @@ This section lists the **verifiable evidence** (reports, summaries, scripts, and
 
 ---
 
+## ⚖️ Licensing
+Core Rth is **source-available** under the **Core Rth Source-Available License v1.0**:
+
+- ✅ **Free for Non-Commercial Use** (personal, education, research, non-profit *without revenue/contract work*)
+- 💼 **Commercial / Enterprise Use requires a paid license** (including internal use in for-profit organizations)
+
+Commercial licensing: **info@rthitalia.com**
+See: `LICENSE`
+
+---
+
 ## 👁️ The Sovereign Manifesto (Lao Tzu's Balance)
 
 *« Knowing others is intelligence; knowing yourself is true wisdom. Mastering others is strength; mastering yourself is true power. »*
