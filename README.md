@@ -18,56 +18,70 @@
 ---
 
 ## 🚀 The Future of Agentic AI is Governed
-Welcome to **Core Rth**, the world's most comprehensive and secure AI assistant framework. We've moved past mere chatbots and hardcoded scripts. Core Rth is a **Living Kernel**, a sophisticated mission control that unites the intelligence of the world's best linguistic models (Claude, GPT-4, LLaMA) and filters their reasoning through an impenetrable wall of security and governance.
+Welcome to **Core Rth**, a governed AI framework and Control Plane built to operate across:
+**multi-LLM routing**, **tool execution**, **web automation**, **omni-channel bridges**, and **physical reality bridges** —
+all enforced by **proposal-first governance**.
 
-Whether you're developing code, parsing complex semantic connections, managing an automated smart-factory via WhatsApp, routing a drone with MAVLink, or simply seeking a highly private, local AI companion—**Core Rth** executes with absolute clarity, safety, and balance.
+Core Rth is not “chat + tools”.
+It is a **Living Kernel**: it observes, remembers, judges conflicts, proposes evolution, and executes only with consent.
 
 ---
 
-## ✨ Core Capabilities: Why Core Rth is Unmatched
+## ✨ Core Capabilities: What RC1 Includes (Implemented & Tested)
 
 ### 🏛️ The AI Village: Multi-LLM Orchestration
-Why rely on a single source of truth when you can assemble an expert council?
-*   **Role-based Intelligence:** Automatically route tasks to specialized roles: *Researcher, Coder, Critic, Synthesizer*.
-*   **Cost-Aware Routing:** Intelligently switches between cloud behemoths (OpenAI, Anthropic) for heavy logic and hyper-fast local models (llama.cpp, vLLM) for drafts, optimizing budget and latency on the fly.
-*   **Unified Village Output:** Watch distinct LLMs debate, verify, and consolidate an answer into a single flawless response.
+- **Role-based council:** Researcher • Coder • Critic • Strategist • Synthesizer.
+- **Cost-aware routing:** chooses the right model/provider at runtime (cloud + local).
+- **Live end-to-end run:** planning → execution → synthesis (with deterministic fallback if synthesis fails).
 
-### 🛡️ The Guardian: Absolute Security & Privacy
-The power to modify files or command machines means nothing without safety.
-*   **The Proposal-First Doctrine:** AI proposes. The Guardian audits against your strict DSL policy. You approve. The AI executes. Never the other way around.
-*   **The Security Vault:** Your API keys, cloud tokens, and sensitive project contexts are locked behind **AES-256 Data-at-Rest** encryption bound to your OS Kernel.
-*   **Audit Trail:** The **Policy Ledger** provides a transparent, immutable history of every action allowed or denied to the models.
+### 🛡️ The Guardian: Absolute Governance & Safety Gates
+- **Proposal-first doctrine:** models propose actions; Guardian audits; Owner approves; execution happens.
+- **Policy DSL + severity profiles:** lenient → balanced → strict → paranoid.
+- **Hard no-go domains:** enforced rules for high-risk action classes.
+- **Audit trail:** allow/deny decisions are recorded and annotated for high-risk operations.
 
-### 🌉 Reality Bridges: From Text to the Physical World
-Core Rth closes the circuit between digital thought and physical action.
-*   **IoT & Domotics:** Control your smart home natively via Home Assistant REST or MQTT adapters.
-*   **Robotics:** Seamlessly interface with industrial ROS2 robotic arms, Arduino, or ESP32 nodes. Generate G-Code directly from reasoning. Hardware operations are bounded by **strict latency timeouts** and safe-state fallbacks to prevent runaway actuations.
-*   **Vehicles & Drones:** Send a mission path directly to a MAVLink drone or query the telemetry of modern autonomous systems (like a Tesla) through an API. Includes geofencing and hard-coded altitude ceilings.
+### 🔐 Security Vault: AES-256-GCM Data-at-Rest
+- **AES-256-GCM encryption** for sensitive artifacts (secrets, agent threads, telemetry as configured).
+- **Master key derivation via OS keyring** (with safe fallback for headless scenarios).
+- Encrypted artifacts are recognizable and managed transparently.
+
+### 🧠 Agent Loop + Governed Code Tools (Function Calling Ready)
+- **Autonomous think-act-observe loop** with max-iterations controls and context trimming.
+- **Tool registry** exposing governed tools via OpenAI-compatible schemas.
+- **Code tools:** file_read/write/edit, terminal_exec, dir_list, grep, git_status, git_diff.
+- **Every write/exec is gated** by Guardian; backups and diffs are generated for edits.
+
+### 🌐 Browser Swarm Agents (Playwright + Safe Fallback)
+- **Headless Chromium via Playwright** for JS-rendered pages; fallback to urllib/BS4 when needed.
+- **SSRF and internal-network protections** (domain/IP blocking, metadata blocking).
+- **Parallel swarm execution** with bounded concurrency.
+- Results can be persisted and ingested into knowledge structures.
+
+### 💬 Chat-to-Matter: Omni-Channel Autonomy (Replay + Live)
+- **Telegram / WhatsApp / Mail bridges** with:
+  - **Replay mode** for safe E2E validation without real credentials.
+  - **Live endpoints** for real operations once secrets are configured.
+
+### � Reality Bridges: IoT, Robotics, Vehicles/Drones (Governed + Safety)
+- **IoT bridge:** Home Assistant REST, MQTT, HTTP adapters; scenes; sensors.
+- **Robotics bridge:** serial / ROS2 / mock; safety clamping; emergency stop.
+- **Vehicle/drone bridge:** MAVLink / ROS2 / mock; geofencing; telemetry; emergency land.
 
 > [!CAUTION]
-> 🚨 **GLOBAL E-STOP:** A digital emergency brake integrated directly into your Mission Control UI. A single click bypasses all LLM logic, instantly sending HALT/E-LAND commands to all grounded and flying physical operations globally.
+> Physical operations must be tested in mock/sim first and executed under proper safety procedures.
+> Emergency endpoints exist to force safe-state transitions (E-STOP / emergency land).
 
-### 🧠 Living Memory & The 2D Explorer
-An AI without memory is amnesic. Core Rth learns you.
-*   **Knowledge Graph (KG):** Constantly builds and refines an entity network of your projects and conversation topics.
-*   **Visual Explorer:** Dive into the mind of your assistant. Explore the relationships and nodes it has mapped with the built-in **Memory Explorer 2D** interactive graph.
+### ✅ Release Engineering Integrity (RC1)
+- **RC1 gate scripts + onboarding** for reproducible “all-green” validation.
+- **Release bundle integrity:** MANIFEST.sha256 generated to prevent post-build tampering.
 
-<div align="center">
-  <img src="docs/assets/memory_explorer_placeholder.png" alt="Memory Explorer 2D Interface" width="800" style="border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.5);"/>
-  <br>
-  <i>Watch the Sovereign Kernel connect the dots in real-time.</i>
-</div>
+---
 
-### 🌐 The Browser Swarm & Workflow Automation
-Core Rth isn't limited to its internal logic; it extends its reach into the web and enterprise workflows.
-*   **Browser Swarm:** Deploy a swarm of headless browsers (via Playwright) navigated by LLMs. Scrape data, test UI, or automate web research autonomously, all under the Guardian's strict SSRF prevention rules.
-*   **n8n & Workflow Integrations:** Seamlessly hook into n8n or Make.com to orchestrate infinitely complex enterprise workflows. Let Core Rth be the cognitive brain that triggers your entire existing no-code infrastructure.
-
-### � Chat-to-Matter: Omni-Channel Autonomy
-You don't need a complex dashboard to move a robotic arm or reroute a drone. Control your physical and digital fleet while drinking coffee.
-*   **Messaging Integrations:** Connect Core Rth to a dedicated **WhatsApp Business, Telegram Bot, or secure Email channel**. 
-*   **Anthropic & Plugin Ecosystem:** Directly expose your Reality Bridges as tools to Claude Desktop, Cursor, or any OpenAI-compatible client. Your LLM can natively call `robot_command()` or `vehicle_mission()` right from a chat window.
-*   **The Workflow:** Send a simple audio message on Telegram: *"Move the industrial arm to the resting position and land the drone."* Core Rth transcodes the audio, formulates a strategy with the AI Village (Claude/GPT), requests permission through the Guardian, and executes the physical hardware commands simultaneously.
+## 📌 Evidence (What We Validate)
+- RC1 release gate: PASS (health, secrets, plugins, guardian, channels, bundle build).
+- Channels: replay validated + live validations executed with test credentials (revoked after tests).
+- Browser swarm: status OK + live scrape validated + KG ingest validated.
+- Bridges: mock registrations and commands validated (robotics, vehicles/drones).
 
 ---
 
