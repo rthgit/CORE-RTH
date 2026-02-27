@@ -77,11 +77,104 @@ It is a **Living Kernel**: it observes, remembers, judges conflicts, proposes ev
 
 ---
 
-## 📌 Evidence (What We Validate)
-- RC1 release gate: PASS (health, secrets, plugins, guardian, channels, bundle build).
-- Channels: replay validated + live validations executed with test credentials (revoked after tests).
-- Browser swarm: status OK + live scrape validated + KG ingest validated.
-- Bridges: mock registrations and commands validated (robotics, vehicles/drones).
+## ✅ RC1 Evidence Index (Implemented & Validated)
+
+This section lists the **verifiable evidence** (reports, summaries, scripts, and core files) proving the **RC1 all-green** status.
+
+### 1) Release Gate RC1 (ALL-GREEN)
+- **Gate report (PASS, 19 pass / 0 warning / 0 fail):**  
+  `reports/release_gate_rc1_*.json` (Generated locally)
+- **Runbook gate + channels:**  
+  [`docs/RC1_RELEASE_GATE_AND_CHANNELS_RUNBOOK.md`](docs/RC1_RELEASE_GATE_AND_CHANNELS_RUNBOOK.md)
+- **Script gate:**  
+  [`scripts/release_gate_rc1.py`](scripts/release_gate_rc1.py)
+
+### 2) Onboarding / Zero-Friction Setup
+- **Onboarding script:**  
+  [`scripts/onboard_zero_friction.py`](scripts/onboard_zero_friction.py)
+- **Local installer/bootstrap:**  
+  [`scripts/install_zero_friction_local.py`](scripts/install_zero_friction_local.py)
+
+### 3) Release Bundle (Packaging)
+- **Bundle builder:**  
+  [`scripts/build_release_bundle.py`](scripts/build_release_bundle.py)
+- **Generated bundle example:**  
+  `release/core_rth_release_v0_.../`
+
+### 4) Manifest Integrity (Anti-tamper)
+- **Manifest checksum (generated in the bundle root):**  
+  `MANIFEST.sha256`
+
+### 5) Benchmark Suite + Results (Core Rth vs OpenClaw)
+- **Task suite (12 tasks):**  
+  [`bench/tasks/core_rth_vs_openclaw_suite.json`](bench/tasks/core_rth_vs_openclaw_suite.json)
+
+**Core Rth (runtime-live):**
+- [`bench/results/..._core_rth_.../summary.json`](bench/results/20260224_220842_core_rth_core9_full12_guardsemantic/summary.json) *(Local benchmark data)*
+
+**OpenClaw (runtime-cli-live):**
+- [`bench/results/..._openclaw_.../summary.json`](bench/results/20260225_000700_openclaw_runtime_cli_live/summary.json) *(Local benchmark data)*
+
+**Compare (delta +39.02):**
+- [`bench/results/compare_..._vs_....json`](bench/results/compare_20260224_220842_core_rth_core9_full12_guardsemantic__vs__20260225_000700_openclaw_runtime_cli_live.json) *(Local benchmark data)*
+
+### 6) Channels (Replay + Live Validation)
+- **Live channels final check (report #1 & #2):**  
+  `reports/channels_live_final_check_*.json`
+
+> Note: Test credentials are automatically revoked/closed post-validation (as per security dossier).
+
+### 7) Browser Swarm Agents (Status + Run + Ingest KG)
+- **Core module:**  
+  [`app/core/browser_swarm.py`](app/core/browser_swarm.py)
+- **Persisted reports:**  
+  `logs/browser_swarm/`
+- **API Endpoints:**  
+  `GET /api/v1/jarvis/browser-swarm/status`  
+  `POST /api/v1/jarvis/browser-swarm/run`  
+  `POST /api/v1/jarvis/browser-swarm/search`
+
+### 8) Autonomous Agent Loop + SSE Streaming
+- **Loop engine:**  
+  [`app/core/agent_loop.py`](app/core/agent_loop.py)
+- **SSE stream endpoint:**  
+  `POST /api/v1/jarvis/agent/run/stream`
+
+### 9) Governed Code Tools + Tool Registry (Function Calling)
+- **Code tools (read/write/edit/exec/git/grep):**  
+  [`app/core/code_tools.py`](app/core/code_tools.py)
+- **Tool registry (OpenAI-compatible schema):**  
+  [`app/core/tool_registry.py`](app/core/tool_registry.py)
+
+### 10) Security Vault (AES-256-GCM, Zero-Key Storage)
+- **Vault module:**  
+  [`app/core/security_vault.py`](app/core/security_vault.py)
+
+### 11) System Prompt Manager ("The Constitution")
+- **Centralized prompt system:**  
+  [`app/core/prompt_system.py`](app/core/prompt_system.py)
+
+### 12) Cortex-Vision (Multimodal)
+- **Vision tool module:**  
+  [`app/core/cortex_vision.py`](app/core/cortex_vision.py)
+
+### 13) State of the Core (Unified Telemetry Dashboard)
+- **API Endpoint:**  
+  `GET /api/v1/jarvis/system/state_of_the_core`
+- **UI:**  
+  [`app/ui_control_plane.html`](app/ui_control_plane.html)
+
+### 14) Multi-User Base Auth
+- **Token endpoint:**  
+  `POST /auth/token`
+
+### 15) Reality Bridges (IoT / Robotics / Vehicles-Drones)
+- **IoT bridge:**  
+  [`app/core/iot_bridge.py`](app/core/iot_bridge.py)
+- **Robotics bridge:**  
+  [`app/core/robotics_bridge.py`](app/core/robotics_bridge.py)
+- **Vehicle/drone bridge:**  
+  [`app/core/vehicle_bridge.py`](app/core/vehicle_bridge.py)
 
 ---
 
