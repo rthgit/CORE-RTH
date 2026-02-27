@@ -58,10 +58,11 @@ An AI without memory is amnesic. Core Rth learns you.
   <i>Watch the Sovereign Kernel connect the dots in real-time.</i>
 </div>
 
-### 📱 Omni-Channel Availability
-Control your robotic fleet or deploy a software update while drinking coffee.
-*   Connect Core Rth to a dedicated **Telegram Bot, WhatsApp Business, or secure Email channel**. 
-*   Send an audio message on Telegram; Core Rth transcodes it, formulates a strategy with the AI Village, requests permission through the Guardian, and executes the physical reality bridge command.
+### � Chat-to-Matter: Omni-Channel Autonomy
+You don't need a complex dashboard to move a robotic arm or reroute a drone. Control your physical and digital fleet while drinking coffee.
+*   **Messaging Integrations:** Connect Core Rth to a dedicated **WhatsApp Business, Telegram Bot, or secure Email channel**. 
+*   **Anthropic & Plugin Ecosystem:** Directly expose your Reality Bridges as tools to Claude Desktop, Cursor, or any OpenAI-compatible client. Your LLM can natively call `robot_command()` or `vehicle_mission()` right from a chat window.
+*   **The Workflow:** Send a simple audio message on Telegram: *"Move the industrial arm to the resting position and land the drone."* Core Rth transcodes the audio, formulates a strategy with the AI Village (Claude/GPT), requests permission through the Guardian, and executes the physical hardware commands simultaneously.
 
 ---
 
