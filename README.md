@@ -248,3 +248,18 @@ If you are an engineer who demands total control, absolute privacy, and the unde
   <br>
   <i>Empowering governed intelligence, globally.</i>
 </div>
+
+---
+
+## 📚 Documentation Index
+
+Explore the extensive documentation to fully understand the architecture, security, and philosophy behind Core Rth:
+
+- 📜 **[The Sovereign Manifesto](MANIFESTO.md)** - The core philosophy, Taoist balance, and the "proposal-first" doctrine.
+- 🔭 **[System Overview](OVERVIEW.md)** - High-level summary of capabilities, modules, and the Mission Control UI.
+- 🏗️ **[Architecture Guide](ARCHITECTURE.md)** - Deep dive into the `jarvis_core.py`, the AI Village, and the code tools.
+- 🛡️ **[Security Model](SECURITY_MODEL.md)** - Understanding the Guardian, the AES-256-GCM Vault, and governance policies.
+- 🌉 **[Reality Bridges](BRIDGES.md)** - How Core Rth connects to IoT, Robotics (ROS2), and Vehicles (MAVLink).
+- ⚙️ **[RC1 Operations](OPERATIONS_RC1.md)** - Notes on release gates, Channels replay, and local testing.
+- ⚠️ **[Safety Warnings](SAFETY_WARNING.md)** - Critical disclaimers regarding physical automation and E-Stops.
+- ⚖️ **[License](LICENSE)** / **[Trademarks](TRADEMARK.md)** / **[Contributing](CONTRIBUTING.md)**
