@@ -255,6 +255,7 @@ If you are an engineer who demands total control, absolute privacy, and the unde
 
 Explore the extensive documentation to fully understand the architecture, security, and philosophy behind Core Rth:
 
+- 📖 **[User Manual (EN)](docs/USER_MANUAL_EN.md)** / **[Manuale d'Uso (IT)](docs/USER_MANUAL_IT.md)** - Step-by-step guides for Owners and Operators using the Mission Control Plane.
 - 📜 **[The Sovereign Manifesto](MANIFESTO.md)** - The core philosophy, Taoist balance, and the "proposal-first" doctrine.
 - 🔭 **[System Overview](OVERVIEW.md)** - High-level summary of capabilities, modules, and the Mission Control UI.
 - 🏗️ **[Architecture Guide](ARCHITECTURE.md)** - Deep dive into the `jarvis_core.py`, the AI Village, and the code tools.
