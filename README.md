@@ -41,14 +41,22 @@ The power to modify files or command machines means nothing without safety.
 ### 🌉 Reality Bridges: From Text to the Physical World
 Core Rth closes the circuit between digital thought and physical action.
 *   **IoT & Domotics:** Control your smart home natively via Home Assistant REST or MQTT adapters.
-*   **Robotics:** Seamlessly interface with industrial ROS2 robotic arms, Arduino, or ESP32 nodes. Generate G-Code directly from reasoning.
-*   **Vehicles & Drones:** Send a mission path directly to a MAVLink drone or query the telemetry of modern autonomous systems (like a Tesla) through an API.
-*   🚨 **Global E-Stop:** A digital emergency brake in your Mission Control UI. A single click stops all grounded and flying physical operations globally.
+*   **Robotics:** Seamlessly interface with industrial ROS2 robotic arms, Arduino, or ESP32 nodes. Generate G-Code directly from reasoning. Hardware operations are bounded by **strict latency timeouts** and safe-state fallbacks to prevent runaway actuations.
+*   **Vehicles & Drones:** Send a mission path directly to a MAVLink drone or query the telemetry of modern autonomous systems (like a Tesla) through an API. Includes geofencing and hard-coded altitude ceilings.
+
+> [!CAUTION]
+> 🚨 **GLOBAL E-STOP:** A digital emergency brake integrated directly into your Mission Control UI. A single click bypasses all LLM logic, instantly sending HALT/E-LAND commands to all grounded and flying physical operations globally.
 
 ### 🧠 Living Memory & The 2D Explorer
 An AI without memory is amnesic. Core Rth learns you.
 *   **Knowledge Graph (KG):** Constantly builds and refines an entity network of your projects and conversation topics.
 *   **Visual Explorer:** Dive into the mind of your assistant. Explore the relationships and nodes it has mapped with the built-in **Memory Explorer 2D** interactive graph.
+
+<div align="center">
+  <img src="docs/assets/memory_explorer_placeholder.png" alt="Memory Explorer 2D Interface" width="800" style="border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.5);"/>
+  <br>
+  <i>Watch the Sovereign Kernel connect the dots in real-time.</i>
+</div>
 
 ### 📱 Omni-Channel Availability
 Control your robotic fleet or deploy a software update while drinking coffee.
