@@ -5,7 +5,7 @@
 **« Nature does not hurry, yet everything is accomplished. » — Lao Tzu**
 
 [![Status: RC1](https://img.shields.io/badge/Release-v1.0--RC1-success.svg?style=for-the-badge)](#)
-[![License: Source-Available](https://img.shields.io/badge/License-Source--Available-blue.svg?style=for-the-badge)](LICENSE)
+[![License: NC + Commercial](https://img.shields.io/badge/License-NC%20%2B%20Commercial-blue.svg?style=for-the-badge)](LICENSE)
 [![Security: AES-256](https://img.shields.io/badge/Security-AES%20256%20Data--at--Rest-critical.svg?style=for-the-badge)](#)
 [![Control: Governance](https://img.shields.io/badge/Governance-Proposal--First-blueviolet.svg?style=for-the-badge)](#)
 
