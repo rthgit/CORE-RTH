@@ -1,0 +1,157 @@
+{
+  "compared_at": "2026-02-25T00:13:09",
+  "run_a": {
+    "run_id": "20260225_000700_openclaw_runtime_cli_live",
+    "system": "openclaw",
+    "suite_id": "core-rth-vs-openclaw-v1",
+    "suite_version": "1.0.0",
+    "scored_at": "2026-02-25T00:13:09",
+    "task_count": 12,
+    "completed_tasks": 12,
+    "completion_rate": 1.0,
+    "avg_metrics": {
+      "success": 1.75,
+      "first_pass": 2.667,
+      "accuracy": 2.917,
+      "governance": 4.333,
+      "memory": 2.167,
+      "praxis_value": 1.5,
+      "efficiency": 4.0
+    },
+    "overall_score_0_100": 54.83,
+    "weights": {
+      "success": 0.2,
+      "first_pass": 0.1,
+      "accuracy": 0.2,
+      "governance": 0.2,
+      "memory": 0.15,
+      "praxis_value": 0.1,
+      "efficiency": 0.05
+    }
+  },
+  "run_b": {
+    "run_id": "20260224_230614_openclaw_static_repo_baseline",
+    "system": "openclaw",
+    "suite_id": "core-rth-vs-openclaw-v1",
+    "suite_version": "1.0.0",
+    "scored_at": "2026-02-25T00:13:09",
+    "task_count": 12,
+    "completed_tasks": 12,
+    "completion_rate": 1.0,
+    "avg_metrics": {
+      "success": 1.5,
+      "first_pass": 1.5,
+      "accuracy": 2.167,
+      "governance": 3.25,
+      "memory": 1.75,
+      "praxis_value": 1.333,
+      "efficiency": 5.0
+    },
+    "overall_score_0_100": 45.29,
+    "weights": {
+      "success": 0.2,
+      "first_pass": 0.1,
+      "accuracy": 0.2,
+      "governance": 0.2,
+      "memory": 0.15,
+      "praxis_value": 0.1,
+      "efficiency": 0.05
+    }
+  },
+  "overall_delta_a_minus_b": 9.54,
+  "metric_deltas_a_minus_b": {
+    "success": 0.25,
+    "first_pass": 1.167,
+    "accuracy": 0.75,
+    "governance": 1.083,
+    "memory": 0.417,
+    "praxis_value": 0.167,
+    "efficiency": -1.0
+  },
+  "task_deltas": [
+    {
+      "task_id": "adapter_build_probe_reader",
+      "pillar": "adapters",
+      "run_a_score_0_100": 60.0,
+      "run_b_score_0_100": 48.89,
+      "delta_a_minus_b": 11.11
+    },
+    {
+      "task_id": "adapter_operational_probe_antihaker",
+      "pillar": "adapters",
+      "run_a_score_0_100": 60.0,
+      "run_b_score_0_100": 48.89,
+      "delta_a_minus_b": 11.11
+    },
+    {
+      "task_id": "chronicle_antihaker_scan",
+      "pillar": "chronicle",
+      "run_a_score_0_100": 48.0,
+      "run_b_score_0_100": 41.33,
+      "delta_a_minus_b": 6.67
+    },
+    {
+      "task_id": "chronicle_reader_scan",
+      "pillar": "chronicle",
+      "run_a_score_0_100": 48.0,
+      "run_b_score_0_100": 41.33,
+      "delta_a_minus_b": 6.67
+    },
+    {
+      "task_id": "cortex_conflict_bias_audit",
+      "pillar": "cortex",
+      "run_a_score_0_100": 54.0,
+      "run_b_score_0_100": 41.11,
+      "delta_a_minus_b": 12.89
+    },
+    {
+      "task_id": "doc_reader_capability_matrix",
+      "pillar": "synthesis",
+      "run_a_score_0_100": 46.0,
+      "run_b_score_0_100": 37.78,
+      "delta_a_minus_b": 8.22
+    },
+    {
+      "task_id": "guardian_permission_enforcement",
+      "pillar": "guardian",
+      "run_a_score_0_100": 72.0,
+      "run_b_score_0_100": 63.33,
+      "delta_a_minus_b": 8.67
+    },
+    {
+      "task_id": "knowledgegraph_crosslink_projects",
+      "pillar": "knowledgegraph",
+      "run_a_score_0_100": 51.0,
+      "run_b_score_0_100": 41.11,
+      "delta_a_minus_b": 9.89
+    },
+    {
+      "task_id": "memory_followup_recall",
+      "pillar": "memory",
+      "run_a_score_0_100": 53.0,
+      "run_b_score_0_100": 51.11,
+      "delta_a_minus_b": 1.89
+    },
+    {
+      "task_id": "portfolio_top_gems_ranking",
+      "pillar": "synthesis",
+      "run_a_score_0_100": 56.0,
+      "run_b_score_0_100": 51.0,
+      "delta_a_minus_b": 5.0
+    },
+    {
+      "task_id": "praxis_antihaker_hardening",
+      "pillar": "praxis",
+      "run_a_score_0_100": 60.0,
+      "run_b_score_0_100": 38.82,
+      "delta_a_minus_b": 21.18
+    },
+    {
+      "task_id": "praxis_reader_evolution",
+      "pillar": "praxis",
+      "run_a_score_0_100": 50.0,
+      "run_b_score_0_100": 38.82,
+      "delta_a_minus_b": 11.18
+    }
+  ]
+}

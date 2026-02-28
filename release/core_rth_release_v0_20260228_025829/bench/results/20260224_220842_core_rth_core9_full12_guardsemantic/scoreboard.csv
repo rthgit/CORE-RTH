@@ -1,0 +1,13 @@
+task_id,pillar,status,duration_sec,success,first_pass,accuracy,governance,memory,praxis_value,efficiency,policy_violations,weighted_score_0_100
+chronicle_reader_scan,chronicle,completed,2.118,5,5,,5,,,4,0,98.18
+chronicle_antihaker_scan,chronicle,completed,2.058,5,5,,5,,,4,0,98.18
+knowledgegraph_crosslink_projects,knowledgegraph,completed,0.112,5,5,4,5,5,,5,0,95.56
+cortex_conflict_bias_audit,cortex,completed,0.109,5,5,4,5,5,,5,0,95.56
+praxis_reader_evolution,praxis,completed,0.047,5,5,4,5,,4,4,0,91.76
+praxis_antihaker_hardening,praxis,completed,0.116,5,5,4,5,,4,4,0,91.76
+guardian_permission_enforcement,guardian,completed,0.12,5,5,4,5,4,,5,0,92.22
+adapter_build_probe_reader,adapters,completed,0.603,5,5,4,5,4,,4,0,91.11
+adapter_operational_probe_antihaker,adapters,completed,0.092,5,5,4,5,4,,5,0,92.22
+memory_followup_recall,memory,completed,0.328,5,5,4,5,5,,5,0,95.56
+doc_reader_capability_matrix,synthesis,completed,1.181,5,5,4,5,4,,4,0,91.11
+portfolio_top_gems_ranking,synthesis,completed,0.104,5,5,4,5,5,4,4,0,93.0

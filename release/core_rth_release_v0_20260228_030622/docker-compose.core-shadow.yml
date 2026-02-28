@@ -1,0 +1,37 @@
+services:
+  core-rth-api:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: core-rth-api
+    ports:
+      - "8011:8000"
+    environment:
+      RTH_ENVIRONMENT: production
+      RTH_REQUIRE_OWNER_APPROVAL: "true"
+      RTH_PROPOSAL_TTL_HOURS: "24"
+      RTH_PROCESS_EXEC_ALLOWED_ACTIONS: '["app_launch","workspace_command","rth_lm_action","shadow_ccs_action"]'
+      RTH_SHADOW_ROOT: "/opt/shadow_x_models"
+      RTH_PATH_MAP_JSON: ${RTH_PATH_MAP_JSON}
+      RTH_DISKLESS: "false"
+      FEEDBACK_ANALYSIS_INTERVAL_SECONDS: "300"
+    volumes:
+      - ./storage:/app/storage
+      - ./logs:/app/logs
+      - ${RTH_SHADOW_HOST_PATH:-./shadow_x_models}:/opt/shadow_x_models:ro
+      - ${RTH_BIOME_HOST_PATH:-C:/Users/PC/Desktop/Biome}:/host/biome:ro
+      - ${RTH_CODEX_HOST_PATH:-D:/CODEX}:/host/codex:ro
+      - ${RTH_SIMULATORE_HOST_PATH:-D:/SIMULATORE_RCQ}:/host/simulatore_rcq:ro
+      - ${RTH_ZETAGRID_HOST_PATH:-E:/ZETAGRID}:/host/zetagrid:ro
+      - ${RTH_DOC_READER_HOST_PATH:-E:/lettore  documenti}:/host/lettore_documenti:ro
+      - ${RTH_ANTIHAKER_HOST_PATH:-D:/SICUREZZA ANTIHAKER}:/host/sicurezza_antihaker:ro
+      - ${RTH_ST_HOST_PATH:-C:/st}:/host/st:ro
+      - ${RTH_DEVELOPMENT_HOST_PATH:-C:/development}:/host/development:ro
+      - ${RTH_GEMINI_HOST_PATH:-C:/Users/PC/.gemini}:/host/gemini:ro
+    restart: unless-stopped
+    healthcheck:
+      test: ["CMD", "curl", "-f", "http://localhost:8000/health/ready"]
+      interval: 15s
+      timeout: 5s
+      retries: 3
+      start_period: 20s

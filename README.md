@@ -62,7 +62,7 @@ It is a **Living Kernel**: it observes, remembers, judges conflicts, proposes ev
   - **Replay mode** for safe E2E validation without real credentials.
   - **Live endpoints** for real operations once secrets are configured.
 
-### � Reality Bridges: IoT, Robotics, Vehicles/Drones (Governed + Safety)
+###   Reality Bridges: IoT, Robotics, Vehicles/Drones (Governed + Safety)
 - **IoT bridge:** Home Assistant REST, MQTT, HTTP adapters; scenes; sensors.
 - **Robotics bridge:** serial / ROS2 / mock; safety clamping; emergency stop.
 - **Vehicle/drone bridge:** MAVLink / ROS2 / mock; geofencing; telemetry; emergency land.

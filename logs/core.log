@@ -1,0 +1,5 @@
+2026-02-28 03:18:58,878 - app.core.event_bus - INFO - RTH Event Bus v1.0.0 inizializzato
+2026-02-28 03:18:58,879 - app.core.event_bus - INFO - RTH Event Bus avviato
+2026-02-28 03:18:59,164 - app.core.knowledge_graph - INFO - RTH Knowledge Graph v1.0.0 inizializzato
+2026-02-28 03:18:59,164 - app.core.event_bus - INFO - Modulo RTH Cortex™ sottoscritto a 3 tipi di eventi
+2026-02-28 03:18:59,164 - app.core.rth_cortex - INFO - RTH Cortex™ v1.0.0 inizializzato

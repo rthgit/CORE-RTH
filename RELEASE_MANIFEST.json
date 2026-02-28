@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-02-27T22:09:01",
-  "release_dir": "D:\\CORE RTH\\release\\core_rth_release_v0_20260227_220855",
+  "generated_at": "2026-02-28T03:18:36",
+  "release_dir": "D:\\CORE RTH\\release\\core_rth_release_v0_20260228_031818",
   "version_tag": "core-rth-release-v0",
   "included": {
     "root_files": [
@@ -8,6 +8,7 @@
       "Dockerfile",
       "docker-compose.core-shadow.yml",
       ".env.example",
+      ".env.rth.quickstart.local",
       ".dockerignore",
       "LICENSE",
       "SAFETY_WARNING.md"
@@ -45,14 +46,14 @@
     ]
   },
   "copy_stats": {
-    "copied_files_explicit": 23,
+    "copied_files_explicit": 24,
     "copied_dirs": {
       "app": {
         "files": 72,
         "dirs": 5
       },
       "docs": {
-        "files": 13,
+        "files": 17,
         "dirs": 0
       },
       "scripts": {
