@@ -2,28 +2,82 @@
 
 # 🌌 CORE RTH: The Sovereign Cognitive Kernel
 
-**« Nature does not hurry, yet everything is accomplished. » — Lao Tzu**
+**AI control plane and cognitive kernel for orchestrating governed AI agents.**
+
+CORE RTH is a runtime designed to coordinate **multiple LLMs, tools, and real-world systems** (IoT, robotics, messaging, and automation) through a governed execution model with security, policy enforcement, and full auditability.
 
 [![Status: RC1](https://img.shields.io/badge/Release-v1.0--RC1-success.svg?style=for-the-badge)](#)
 [![License: NC + Commercial](https://img.shields.io/badge/License-NC%20%2B%20Commercial-blue.svg?style=for-the-badge)](LICENSE)
 [![Security: AES-256](https://img.shields.io/badge/Security-AES%20256%20Data--at--Rest-critical.svg?style=for-the-badge)](#)
 [![Control: Governance](https://img.shields.io/badge/Governance-Proposal--First-blueviolet.svg?style=for-the-badge)](#)
 
-*An advanced, governed Control Plane for multi-LLM orchestration, physical reality bridging, and omni-channel autonomy. Born to build, analyze, and automate with absolute sovereignty.*
-
-[Features](#-core-capabilities) • [Installation](#-quick-start) • [The Philosophy](#-the-sovereign-manifesto) • [Architecture](#-architecture) 
-
 </div>
 
 ---
 
-## 🚀 The Future of Agentic AI is Governed
-Welcome to **Core Rth**, a governed AI framework and Control Plane built to operate across:
-**multi-LLM routing**, **tool execution**, **web automation**, **omni-channel bridges**, and **physical reality bridges** —
-all enforced by **proposal-first governance**.
+## What CORE RTH enables
 
-Core Rth is not “chat + tools”.
-It is a **Living Kernel**: it observes, remembers, judges conflicts, proposes evolution, and executes only with consent.
+CORE RTH provides a **governed runtime for agentic systems**, acting as a control plane between AI models, tools, and the real world.
+
+It allows developers and operators to build systems that:
+
+- orchestrate **multiple LLMs and agent roles**
+- execute **tools and automation safely**
+- connect AI workflows to **real infrastructure**
+- enforce **governance policies and safety gates**
+- maintain **cryptographic data security and full audit trails**
+
+---
+
+## Key capabilities
+
+- **Multi-LLM orchestration**
+- **Governed agent runtime loop**
+- **Policy-enforced tool execution**
+- **Browser swarm automation**
+- **Omni-channel messaging bridges**
+- **Reality bridges for IoT, robotics, and vehicles**
+- **Security vault with AES-256-GCM**
+- **Guardian governance layer**
+
+---
+
+## Quick start
+
+```bash
+git clone https://github.com/rthgit/CORE-RTH.git
+cd CORE-RTH
+pip install -r requirements.txt
+python scripts/run_core_rth_local_bench_api.py
+```
+---
+
+## Why CORE-RTH
+
+Most AI agent frameworks focus on orchestration.
+
+CORE-RTH adds a governed runtime for agentic systems that need:
+
+- policy-enforced execution
+- auditability
+- secure tool usage
+- real-world integrations
+- safety controls for physical automation
+
+This makes CORE-RTH suitable not only for AI workflows, but for environments where agents interact with infrastructure, messaging systems, IoT, robotics, and vehicles.
+
+---
+
+## What makes it different
+
+| Capability | Typical agent frameworks | CORE-RTH |
+|---|---|---|
+| Multi-agent orchestration | ✅ | ✅ |
+| Tool execution | ✅ | ✅ |
+| Policy enforcement | ❌ / limited | ✅ |
+| Audit trail | ❌ / limited | ✅ |
+| Real-world bridges | rare | ✅ |
+| Physical safety controls | rare | ✅ |
 
 ---
 
